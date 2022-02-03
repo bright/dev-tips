@@ -1,0 +1,8 @@
+tasks.withType(Exec).configureEach { test ->
+    environment('PREFIX', "***** START *****\n")
+    environment('SUFFIX', "\n*****  END  *****")
+}
+
+task printMessage(type: Exec) {
+    commandLine 'echo', environment["PREFIX"], "Hello!", environment["SUFFIX"]
+}
