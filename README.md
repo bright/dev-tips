@@ -21,3 +21,6 @@ If you have learned something new on your own and you think it is worth sharing,
 
 ### typescript
 * [How an interface can inherit from a class in TypeScript?](typescript/interface-extends-class.ts)
+
+### javascript
+* [Deep cloning of a given value using structured clone algorithm](javascript/structured-clone.js)
