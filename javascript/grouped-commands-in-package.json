@@ -1,0 +1,8 @@
+  "scripts": {
+    "help": "scripts-help -w 40",
+    "\n========== Building ==========": "",
+    "tsc": "tsc",
+    "tscwatch": "tsc --watch",
+    "\n========== Serving ==========": "",
+    "serve": "serve ./site/"
+  },
